@@ -1,0 +1,48 @@
+
+  @font-face {
+      font-family: 'wotfard';
+      src: url('https://cartedata.com/static/fonts/wotfard-medium-webfont.eot');
+      src: url('https://cartedata.com/static/fonts/wotfard-medium-webfont.eot?#iefix') format('embedded-opentype'),
+          url('https://cartedata.com/static/fonts/wotfard-medium-webfont.woff2') format('woff2'),
+          url('https://cartedata.com/static/fonts/wotfard-medium-webfont.ttf') format('truetype');
+      font-weight: 500;
+      font-style: normal;
+  }
+
+  @font-face {
+      font-family: 'wotfard';
+      src: url('https://cartedata.com/static/fonts/wotfard-regular-webfont.eot');
+      src: url('https://cartedata.com/static/fonts/wotfard-regular-webfont.eot?#iefix') format('embedded-opentype'),
+          url('https://cartedata.com/static/fonts/wotfard-regular-webfont.woff2') format('woff2'),
+          url('https://cartedata.com/static/fonts/wotfard-regular-webfont.ttf') format('truetype');
+      font-weight: 400;
+      font-style: normal;
+  }
+
+  @font-face {
+      font-family: 'wotfard';
+      src: url('https://cartedata.com/static/fonts/wotfard-semibold-webfont.eot');
+      src: url('https://cartedata.com/static/fonts/wotfard-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+          url('https://cartedata.com/static/fonts/wotfard-semibold-webfont.woff2') format('woff2'),
+          url('https://cartedata.com/static/fonts/wotfard-semibold-webfont.ttf') format('truetype');
+      font-weight: 600;
+      font-style: normal;
+  }
+
+  @font-face {
+      font-family: 'silka-mono';
+      src: url('https://cartedata.com/static/fonts/silkamono-regular-webfont.eot');
+      src: url('https://cartedata.com/static/fonts/silkamono-regular-webfont.eot?#iefix') format('embedded-opentype'),
+          url('https://cartedata.com/static/fonts/silkamono-regular-webfont.woff2') format('woff2'),
+          url('https://cartedata.com/static/fonts/silkamono-regular-webfont.ttf') format('truetype');
+      font-weight: 400;
+      font-style: normal;
+  }
+
+body, input {
+  font-family: "wotfard", -apple-system, Helvetica, Arial, sans-serif;
+}
+
+pre, code, kbd {
+  font-family: "silka-mono", SFMono-Regular, Consolas, Menlo, monospace;
+}

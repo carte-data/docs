@@ -1,0 +1,21 @@
+site_name: Carte
+repo_url: https://github.com/carte-data/carte
+theme:
+  name: material
+  palette:
+    primary: black
+    accent: "light blue"
+  features:
+    - navigation.tabs
+    - navigation.sections
+extra_css:
+  - stylesheets/extra.css
+nav:
+  - Docs:
+    - Home: index.md
+    - Getting started:
+        - Installation: getting_started/installation.md
+        - Creating your site: getting_started/creating_your_site.md
+        - Extracting metadata: getting_started/extracting_metadata.md
+        - Deploying your site: getting_started/deploying_your_site.md
+  - 'Live demo': 'https://demo.cartedata.com'
