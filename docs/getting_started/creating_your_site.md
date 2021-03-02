@@ -1,15 +1,33 @@
 # Getting started
 
-First, create a new repo with [Carte frontend](https://github.com/carte-data/carte-frontend) as the template. For this, go to the frontend repo, and click the green `Use this template` button. This repo will house the metadata for your data catalog, as well as the front end. Name the new repo however you like. In this example it'll be `data-catalog`. Once it's created, clone your repo locally and enter the directory:
+You can create a new data catalog folder with the CLI by running
+
 ```sh
-git clone <data catalog repo URL>
+carte new data-catalog
+```
+`data-catalog` could be anything that you'd like to name your data catalog.
+
+This clones the latest version of the Carte front end to the `data-catalog` (or the name you provided) folder within the current one, and applies a few project-specific settings.
+Then you need to install the front end's dependencies by going into the catalog's folder:
+```sh
 cd data-catalog
 ```
 
-If you don't have Node.js installed, [install it](https://nodejs.org/). Then install the frontend's dependencies by running `npm install`.
+and then running
+
+```sh
+npm install
+```
+
+This will install the necessary dependencies to serve the front end locally.
 
 The frontend comes with dummy data prepopulated, so you can play with the site right away. To start development mode, run
 ```sh
 npm run dev
 ```
 then view your site at [http://localhost:3000](http://localhost:3000).
+
+If you don't want sample data to be included, you can create the site using
+```sh
+carte new data-catalog --no-sample
+```
