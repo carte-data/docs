@@ -8,14 +8,22 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.indexes
 extra_css:
   - stylesheets/extra.css
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 nav:
   - Docs:
-    - Home: index.md
-    - Getting started:
-        - Installation: getting_started/installation.md
-        - Creating your site: getting_started/creating_your_site.md
-        - Extracting metadata: getting_started/extracting_metadata.md
-        - Deploying your site: getting_started/deploying_your_site.md
-  - 'Live demo': 'https://demo.cartedata.com'
+      - Home: index.md
+      - User Guide:
+          - Installation: getting_started/installation.md
+          - Creating your site: getting_started/creating_your_site.md
+          - Extracting metadata: getting_started/extracting_metadata.md
+          - Deploying your site: getting_started/deploying_your_site.md
+      - Reference:
+          - Connections: reference/connections/index.md
+          - "Using Amundsen Databuilder extractors": reference/databuilder.md
+  - "Live demo": "https://demo.cartedata.com"

@@ -1,6 +1,7 @@
 # Installation
 
 **Prerequisites:**
+
 * Python >=3.7
 * [Node.js](https://nodejs.org/)
 
