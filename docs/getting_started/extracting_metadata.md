@@ -3,7 +3,7 @@
 Having sample data is fine, but you'll want to include your own data, right? To do that, the CLI provides the `extract` command. It has the following signature:
 
 ```sh
-carte extract extract.config.yml -o data/datasets
+carte extract extract.config.yml -o datasets
 ```
 
 The first parameter points to a config file that tells Carte which data sources to perform the extraction on. It has the following format:
@@ -21,7 +21,7 @@ more information about the possible configuration options can be found in the [R
 
 ## Folder structure
 
-Carte uses a `<connection>/<database>/<dataset>` folder structure. To give an example, the path for a dataset called `films` in the `postgres` connection and `pagila` database will be `postgres/pagila/films.md`. Moreover, the front end stores the dataset descriptors in the `data/datasets` folder, so the full path will be `data/datasets/postgres/pagila/films.md`.
+Carte uses a `<connection>/<database>/<dataset>` folder structure. To give an example, the path for a dataset called `films` in the `postgres` connection and `pagila` database will be `postgres/pagila/films.md`. Moreover, the front end stores the dataset descriptors in the `datasets` folder, so the full path will be `datasets/postgres/pagila/films.md`.
 
 ## Merging descriptions
 
