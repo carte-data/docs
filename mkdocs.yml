@@ -2,6 +2,7 @@ site_name: Carte
 repo_url: https://github.com/carte-data/carte
 theme:
   name: material
+  custom_dir: overrides
   palette:
     primary: black
     accent: "light blue"
