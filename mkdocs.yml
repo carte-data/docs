@@ -18,17 +18,16 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - attr_list
 nav:
-  - Docs:
-      - Home: index.md
-      - User Guide:
-          - Installation: getting_started/installation.md
-          - Creating your site: getting_started/creating_your_site.md
-          - Extracting metadata: getting_started/extracting_metadata.md
-          - Deploying your site: getting_started/deploying_your_site.md
-          - Setting up the admin site: getting_started/setting_up_admin.md
-      - Reference:
-          - Connections: reference/connections/index.md
-          - "Using Amundsen Databuilder extractors": reference/databuilder.md
-          - CLI Commands: reference/commands.md
-      - Roadmap: roadmap.md
+  - Home: index.md
+  - User Guide:
+      - Installation: getting_started/installation.md
+      - Creating your site: getting_started/creating_your_site.md
+      - Extracting metadata: getting_started/extracting_metadata.md
+      - Deploying your site: getting_started/deploying_your_site.md
+      - Setting up the admin site: getting_started/setting_up_admin.md
+  - Reference:
+      - Connections: reference/connections/index.md
+      - "Using Amundsen Databuilder extractors": reference/databuilder.md
+      - CLI Commands: reference/commands.md
+  - Roadmap: roadmap.md
   - "Live demo": "https://demo.cartedata.com"

@@ -3,7 +3,6 @@
 **Prerequisites:**
 
 * Python >=3.7
-* [Node.js](https://nodejs.org/)
 
 To install the Carte CLI, run
 
