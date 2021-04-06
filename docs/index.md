@@ -2,6 +2,8 @@
 
 Carte is a **static site generator** for documenting your organisation's data. It lets you automatically extract metadata from your data sources (SQL databases, AWS, BigQuery, etc.) and document them as text files. It then provides you with a searchable, easy-to-use statically generated front end for navigating your datasets and helping data discovery in your organisation.
 
+[Live demo](https://demo.cartedata.com){ .md-button }
+
 ![Carte front end](/assets/images/carte_screenshot.png)
 
 ## Who is this for?

@@ -2,6 +2,7 @@ site_name: Carte
 repo_url: https://github.com/carte-data/carte
 theme:
   name: material
+  custom_dir: overrides
   palette:
     primary: black
     accent: "light blue"
@@ -15,6 +16,7 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - attr_list
 nav:
   - Docs:
       - Home: index.md
@@ -23,7 +25,10 @@ nav:
           - Creating your site: getting_started/creating_your_site.md
           - Extracting metadata: getting_started/extracting_metadata.md
           - Deploying your site: getting_started/deploying_your_site.md
+          - Setting up the admin site: getting_started/setting_up_admin.md
       - Reference:
           - Connections: reference/connections/index.md
           - "Using Amundsen Databuilder extractors": reference/databuilder.md
+          - CLI Commands: reference/commands.md
+      - Roadmap: roadmap.md
   - "Live demo": "https://demo.cartedata.com"
